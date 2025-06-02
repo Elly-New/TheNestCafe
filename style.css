@@ -406,3 +406,26 @@ nav a:hover {
   border-radius: 4px;
   font-size: 1.2rem;
 }
+
+.backlinks h4 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+  font-family: "Montserrat";
+  color: var(--primaryDarkColor);
+}
+
+.backlinks a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: var(--primaryDarkColor);
+  font-family: "Montserrat";
+  text-decoration: none;
+  font-weight: 500;
+  margin-bottom: 20px;
+}
+.backlinks a:hover {
+  text-decoration: underline;
+}
